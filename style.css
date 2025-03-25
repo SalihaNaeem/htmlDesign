@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color:  white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 50px;
+}
+/* .nav-logo{
+    width: 200px;
+    height: 80px;
+    align-items: center;
+} */
+  
+
+.nav-icon a{
+color: #333;
+font-size: 20px;
+text-decoration: none;
+ text-align: center;
+ background-color:  rgba(224, 218, 218, 0.952);
+ border-radius: 5px;
+ width: 20px;
+}
+
+
+.nav-links{
+    font-size: large;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    list-style: none;
+}
+.nav-links a{
+    color: rgba(3, 123, 184, 0.863);
+    text-decoration: none;
+    
+}
+
+.nav-links li{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+    width: 100%;
+     
+}
+.content{
+    height: 500px;
+    background-color: #f8f8f8;
+    border: 2px solid #eee;
+    
+}
+h1{
+    padding-top: 1%;
+    text-align: center;
+}
+.content span{
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+.content1{
+display: flex;
+justify-content: center;
+
+    
+}
+ 
+.card1{
+    width: 28%;
+    height:350px ;
+    border: 2px solid #eee;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 2%;
+    background-color:white;
+}
+.card1 img{
+    width: 120px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.card1 h2{
+    margin-bottom:3%;
+    color: rgb(58, 44, 44);
+}
+.card1 p{
+    font-size: large;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(131, 128, 128);
+}
+.card1 button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(250, 253, 253);
+    border-radius: 5px;
+    color: rgb(58, 44, 44);
+}
+.card1 button :hover{
+background-color: cadetblue;
+}
+
+/* 2nd */
+.card2{
+    width: 28%;
+    height:350px ;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 2%;
+    background-color:white;
+    border: 2px solid #eee;
+}
+.card2 img{
+    width: 120px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.card2 h2{
+    margin-bottom:3%;
+    color: rgb(58, 44, 44);
+}
+.card2 p{
+    font-size: large;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(131, 128, 128);
+}
+.card2 button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(250, 253, 253);
+    border-radius: 5px;
+    color: rgb(58, 44, 44);
+}
+.card2 button :hover{
+background-color: cadetblue;
+}
+/*3rd */
+.card3{
+    width: 28%;
+    height:350px ;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 2%;
+    background-color:white;
+    border: 2px solid #eee;
+}
+.card3 img{
+    width: 120px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.card3 h2{
+    margin-bottom:3%;
+    color: rgb(58, 44, 44);
+}
+.card3 p{
+    font-size: large;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: rgb(131, 128, 128);
+}
+.card3 button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(250, 253, 253);
+    border-radius: 5px;
+    color: rgb(58, 44, 44);
+}
+.card3 button :hover{
+background-color: #ff9800;
+color: white;
+}
